@@ -1,0 +1,364 @@
+{
+    "identite": [
+        {
+            "nom_complet": "M. PELLEGRIN Roland",
+            "classe": "",
+            "etablissement": ""
+        }
+    ],
+    "edt_aujourdhui": [
+        {
+            "id": "312CCFC599032E",
+            "date_heure": "18/10/2022, 09:00",
+            "date": "18/10/2022",
+            "heure": "09:00",
+            "heure_fin": "10:00",
+            "cours": "HISTOIRE-GEOGRAPHIE",
+            "salle": "222A",
+            "annulation": false,
+            "status": null,
+            "background_color": "#F6F0B5"
+        },
+        {
+            "id": "312A45C5990372",
+            "date_heure": "18/10/2022, 10:00",
+            "date": "18/10/2022",
+            "heure": "10:00",
+            "heure_fin": "11:00",
+            "cours": "MATHEMATIQUES",
+            "salle": "25",
+            "annulation": false,
+            "status": null,
+            "background_color": "#4576BA"
+        },
+        {
+            "id": "317FAEC599031C",
+            "date_heure": "18/10/2022, 11:00",
+            "date": "18/10/2022",
+            "heure": "11:00",
+            "heure_fin": "12:00",
+            "cours": "FRANCAIS",
+            "salle": "225 + i",
+            "annulation": true,
+            "status": "Prof. absent",
+            "background_color": "#D6A0C8"
+        },
+        {
+            "id": "319C28C49903DD",
+            "date_heure": "18/10/2022, 14:00",
+            "date": "18/10/2022",
+            "heure": "14:00",
+            "heure_fin": "15:00",
+            "cours": "PHYS-CHIMIE",
+            "salle": null,
+            "annulation": false,
+            "status": null,
+            "background_color": "#3454A0"
+        },
+        {
+            "id": "31B94438990365",
+            "date_heure": "18/10/2022, 15:00",
+            "date": "18/10/2022",
+            "heure": "15:00",
+            "heure_fin": "16:00",
+            "cours": "AP MATH",
+            "salle": "20",
+            "annulation": false,
+            "status": null,
+            "background_color": "#E73A1F"
+        }
+    ],
+    "edt_aujourdhui_debut": "09:00",
+    "edt_demain": [
+        {
+            "id": "3156ED399903FC",
+            "date_heure": "19/10/2022, 08:00",
+            "date": "19/10/2022",
+            "heure": "08:00",
+            "heure_fin": "09:00",
+            "cours": "PHYS-CHIMIE",
+            "salle": null,
+            "annulation": false,
+            "status": null,
+            "background_color": "#3454A0"
+        },
+        {
+            "id": "31B783C7990309",
+            "date_heure": "19/10/2022, 09:00",
+            "date": "19/10/2022",
+            "heure": "09:00",
+            "heure_fin": "10:00",
+            "cours": "SC. ECONO.& SOCIALES",
+            "salle": "206",
+            "annulation": false,
+            "status": null,
+            "background_color": "#F08557"
+        },
+        {
+            "id": "318FF2C099036D",
+            "date_heure": "19/10/2022, 10:00",
+            "date": "19/10/2022",
+            "heure": "10:00",
+            "heure_fin": "11:00",
+            "cours": "ANGLAIS LV1",
+            "salle": "106",
+            "annulation": true,
+            "status": "Prof. absent",
+            "background_color": "#FFED00"
+        },
+        {
+            "id": "31419039990367",
+            "date_heure": "19/10/2022, 11:00",
+            "date": "19/10/2022",
+            "heure": "11:00",
+            "heure_fin": "12:00",
+            "cours": "ESPAGNOL LV2",
+            "salle": "101",
+            "annulation": false,
+            "status": null,
+            "background_color": "#7CB927"
+        }
+    ],
+    "edt_demain_debut": "08:00",
+    "edt_prochainjour": [
+        {
+            "index": 0,
+            "id": "3156ED399903FC",
+            "date_heure": "19/10/2022, 08:00",
+            "date": "19/10/2022",
+            "heure": "08:00",
+            "heure_fin": "09:00",
+            "cours": "PHYS-CHIMIE",
+            "salle": null,
+            "annulation": false,
+            "status": null,
+            "background_color": "#3454A0"
+        },
+        {
+            "index": 1,
+            "id": "31B783C7990309",
+            "date_heure": "19/10/2022, 09:00",
+            "date": "19/10/2022",
+            "heure": "09:00",
+            "heure_fin": "10:00",
+            "cours": "SC. ECONO.& SOCIALES",
+            "salle": "206",
+            "annulation": false,
+            "status": null,
+            "background_color": "#F08557"
+        },
+        {
+            "index": 2,
+            "id": "318FF2C099036D",
+            "date_heure": "19/10/2022, 10:00",
+            "date": "19/10/2022",
+            "heure": "10:00",
+            "heure_fin": "11:00",
+            "cours": "ANGLAIS LV1",
+            "salle": "106",
+            "annulation": true,
+            "status": "Prof. absent",
+            "background_color": "#FFED00"
+        },
+        {
+            "index": 3,
+            "id": "31419039990367",
+            "date_heure": "19/10/2022, 11:00",
+            "date": "19/10/2022",
+            "heure": "11:00",
+            "heure_fin": "12:00",
+            "cours": "ESPAGNOL LV2",
+            "salle": "101",
+            "annulation": false,
+            "status": null,
+            "background_color": "#7CB927"
+        }
+    ],
+    "edt_prochainjour_debut": "08:00",
+    "edt_date": [],
+    "note": [
+        {
+            "date": "17/10/2022",
+            "date_courte": "17/10",
+            "cours": "FRANCAIS",
+            "note": "17",
+            "sur": "21",
+            "note_sur": "17\u00a0/\u00a021",
+            "coeff": "0",
+            "moyenne_classe": "16,98",
+            "max": "21",
+            "min": "0"
+        },
+        {
+            "date": "17/10/2022",
+            "date_courte": "17/10",
+            "cours": "FRANCAIS",
+            "note": "17",
+            "sur": "20",
+            "note_sur": "17\u00a0/\u00a020",
+            "coeff": "1",
+            "moyenne_classe": "16,9",
+            "max": "20",
+            "min": "0"
+        },
+        {
+            "date": "16/10/2022",
+            "date_courte": "16/10",
+            "cours": "ESPAGNOL LV2",
+            "note": "9",
+            "sur": "10",
+            "note_sur": "9\u00a0/\u00a010",
+            "coeff": "1",
+            "moyenne_classe": "9,09",
+            "max": "10",
+            "min": "7,5"
+        },
+        {
+            "date": "14/10/2022",
+            "date_courte": "14/10",
+            "cours": "MATHEMATIQUES",
+            "note": "15",
+            "sur": "20",
+            "note_sur": "15\u00a0/\u00a020",
+            "coeff": "2",
+            "moyenne_classe": "9,52",
+            "max": "20",
+            "min": "1"
+        },
+        {
+            "date": "12/10/2022",
+            "date_courte": "12/10",
+            "cours": "PHYS-CHIMIE",
+            "note": "15",
+            "sur": "20",
+            "note_sur": "15\u00a0/\u00a020",
+            "coeff": "2",
+            "moyenne_classe": "11,52",
+            "max": "20",
+            "min": "1,5"
+        },
+        {
+            "date": "10/10/2022",
+            "date_courte": "10/10",
+            "cours": "ESPAGNOL LV2",
+            "note": "10",
+            "sur": "10",
+            "note_sur": "10\u00a0/\u00a010",
+            "coeff": "1",
+            "moyenne_classe": "7,91",
+            "max": "10",
+            "min": "2"
+        },
+        {
+            "date": "09/10/2022",
+            "date_courte": "09/10",
+            "cours": "SC. ECONO.& SOCIALES",
+            "note": "7,5",
+            "sur": "10",
+            "note_sur": "7,5\u00a0/\u00a010",
+            "coeff": "1",
+            "moyenne_classe": "6,6",
+            "max": "9,5",
+            "min": "2"
+        },
+        {
+            "date": "07/10/2022",
+            "date_courte": "07/10",
+            "cours": "SCIENCES VIE & TERRE",
+            "note": "2",
+            "sur": "3",
+            "note_sur": "2\u00a0/\u00a03",
+            "coeff": "1",
+            "moyenne_classe": "1,24",
+            "max": "3",
+            "min": "0"
+        },
+        {
+            "date": "07/10/2022",
+            "date_courte": "07/10",
+            "cours": "SCIENCES VIE & TERRE",
+            "note": "6",
+            "sur": "7",
+            "note_sur": "6\u00a0/\u00a07",
+            "coeff": "1",
+            "moyenne_classe": "4,06",
+            "max": "6",
+            "min": "0"
+        },
+        {
+            "date": "07/10/2022",
+            "date_courte": "07/10",
+            "cours": "MATHEMATIQUES",
+            "note": "9",
+            "sur": "10",
+            "note_sur": "9\u00a0/\u00a010",
+            "coeff": "1",
+            "moyenne_classe": "6,3",
+            "max": "10",
+            "min": "0"
+        }
+    ],
+    "devoir": [
+        {
+            "index": 0,
+            "date": "18/10",
+            "title": "FRANCAIS",
+            "description": "R\u00e9vision : rattrapage du contr\u00f4le de fin de s\u00e9quence n\u00b01 pour les \u00e9l\u00e8ves qui \u00e9taient absents ce jour-l\u00e0 le mardi 18 octobre e",
+            "description_longue": "R\u00e9vision : rattrapage du contr\u00f4le de fin de s\u00e9quence n\u00b01 pour les \u00e9l\u00e8ves qui \u00e9taient absents ce jour-l\u00e0 le mardi 18 octobre en salle 102 de 16H \u00e0 17H.",
+            "done": true
+        },
+        {
+            "index": 1,
+            "date": "18/10",
+            "title": "MATHEMATIQUES",
+            "description": "Exercices n\u00b010 et 11 p 146",
+            "description_longue": "Exercices n\u00b010 et 11 p 146",
+            "done": true
+        },
+        {
+            "index": 2,
+            "date": "18/10",
+            "title": "HISTOIRE-GEOGRAPHIE",
+            "description": "d\u00e9finition de la la\u00efcit\u00e9 + quelle libert\u00e9 la la\u00efcit\u00e9 vise le plus \u00e0 prot\u00e9ger ?",
+            "description_longue": "d\u00e9finition de la la\u00efcit\u00e9 + quelle libert\u00e9 la la\u00efcit\u00e9 vise le plus \u00e0 prot\u00e9ger ?",
+            "done": true
+        },
+        {
+            "index": 3,
+            "date": "18/10",
+            "title": "HISTOIRE-GEOGRAPHIE",
+            "description": "Est-ce la premi\u00e8re fois qu'un attentat est commis en France par des terroristes islamistes ? (r\u00e9ponse + exemple) Au nom de qu",
+            "description_longue": "Est-ce la premi\u00e8re fois qu'un attentat est commis en France par des terroristes islamistes ? (r\u00e9ponse + exemple) Au nom de quelles autres id\u00e9es des attentats ont \u00e9t\u00e9 commis en France (un exemple dat\u00e9) ?",
+            "done": true
+        },
+        {
+            "index": 4,
+            "date": "07/11",
+            "title": "SC.NUMERIQ.TECHNOL.",
+            "description": "2_Les.Reseaux.sociaux - 3 : La cyberviolence",
+            "description_longue": "2_Les.Reseaux.sociaux - 3 : La cyberviolence",
+            "done": false
+        },
+        {
+            "index": 5,
+            "date": "08/11",
+            "title": "FRANCAIS",
+            "description": "Pr\u00e9paration : avoir lu le recueil de po\u00e8mes _Les Regrets_, de Du Bellay. L'achat du Cahier Bordas correspondant (cf. liste de",
+            "description_longue": "Pr\u00e9paration : avoir lu le recueil de po\u00e8mes _Les Regrets_, de Du Bellay. L'achat du Cahier Bordas correspondant (cf. liste de livres sur le carnet) est vivement conseill\u00e9.\nIl faut avoir rempli son carnet de lecture (ou la partie lecture du classeur) avec des remarques sur chaque po\u00e8me : une d\u00e9signation du po\u00e8me, dire s'il vous a plu et pourquoi, citer votre vers pr\u00e9f\u00e9r\u00e9. Les remarques peuvent aussi \u00eatre n\u00e9gatives. Vous avez le droit d'orner les pages, de les illustrer. CHAQUE PAGE DOIT PORTER VOTRE NOM, sauf si vous remplissez un cahier (qu'il faudra apporter). Vous ferez ensuite l'\u00e9crit d'appropriation propos\u00e9 \u00e0 la page 10 du Cahier Bordas _Les Regrets_.",
+            "done": false
+        }
+    ],
+    "absence": [
+        {
+            "id": "12118A040E1DC",
+            "date_debut": "29/09/22 14:00",
+            "date_debut_format": "Le 29 Sep \u00e0 14:00",
+            "date_fin": "29/09/22 15:00",
+            "justifie": false,
+            "nb_heures": "1h00",
+            "nb_jours": 1,
+            "raison": ""
+        }
+    ],
+    "evaluation": []
+}
