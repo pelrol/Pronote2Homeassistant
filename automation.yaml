@@ -24,7 +24,7 @@ trigger:
     from: 'off'
     to: 'on'
   - platform: state
-    entity_id: binary_sensor.pronote_edt_demo_aujourdhui_cours_1_annulation
+    entity_id: binary_sensor.pronote_edt_demo_aujourdhui_cours_2_annulation
     from: 'off'
     to: 'on'
   - platform: state
