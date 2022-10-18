@@ -45,24 +45,37 @@ L'idée consiste donc à remonter ces informations (emploi du temps, note, devoi
 
 Je mets donc à disposition un script python [pronote.py](pronote.py).  
 Ce script permet de se connecter à Pronote et récupère toutes les informations dans un JSON.  
-Ce script utilise un fichier de configuration [config.ini] qui est initialisé avec le compte de demo de Pronote > reste à l'adapter à vos identifiants en changeant les variables dans la section defaut.
-Et si vous avez plusieurs enfants, ajouter une nouvel section comme    
+
+Ce script utilise un fichier de configuration [config.ini](config.ini) qui est initialisé avec le compte de demo de Pronote > reste à l'adapter à vos identifiants en changeant les variables dans la section defaut.
+Si vous avez plusieurs enfants, ajoutez une nouvelle section en dupliquant la section *[defaut]* comme donné en exemple : *enfant1*
+
 Il faut donc installer ce script ainsi que le fichier de configuration dans un dossier (nommé par exemple "python_script") dans le dossier /config de votre HA.  
-Ce script quand il est lancé génère un fichier pronote_AAAA.json qu'il dépose dans /config/www/ de votre HA.
+Ce script quand il est lancé génère un fichier pronote_AAAA.json qu'il dépose dans le dossier spécifié dans le paramètre *chemin* du [config.ini](config.ini).
 NB : AAAA est le nom de l'élève à paramétré dans le fichier de configuration.
 
 ## 2. Exécution du script 
 
+Pour installer les dépendances du script tapez la commande suivante:
+```
+pip3 install -r requirements.txt
+```
 Pour lancer le script il faut avoir accès en SSH et se placer dans le dossier créé précédement
-    cd /usr/share/hassio/homeassistant/python_scripts/
+````
+cd /usr/share/hassio/homeassistant/python_scripts/
+````
 Et lancer le script avec la commande 
-    python3 pronote.py 
+````
+python3 pronote.py 
+````
 Et si vous avez créé une section pour un 2eme enfant dans le config.ini, alors : 
-    python3 pronote.py enfant1
-
-Il doit ensuite être lancé de façon régulière - toute les 5 ou 10 minutes - via la crontab par exemple.  
-Exemple : 
-    */10 * * * * /usr/bin/python3 /usr/share/hassio/homeassistant/python_scripts/pronote.py > /tmp/pronote.log 2>&1  
+````
+python3 pronote.py enfant1
+````
+Il doit ensuite être lancé de façon régulière - toutes les 5 ou 10 minutes - via la crontab par exemple.  
+Exemple :
+````
+*/10 * * * * /usr/bin/python3 /usr/share/hassio/homeassistant/python_scripts/pronote.py > /tmp/pronote.log 2>&1  
+````
 
 ## 3. Configuration YAML pour récupérer l'emploi du temps dans un sensor
 
